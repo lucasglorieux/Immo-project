@@ -13,7 +13,7 @@ const handleClick = () => setBurger(!burger)
   return (
     <div className='navbar'>
         <div className='container'>
-          <h1><span><BsFillHouseFill />House </span>Sellers</h1>
+          <h1><span><BsFillHouseFill />LG </span>Immo</h1>
           <button className='btn'>Connexion</button>
           <ul className={burger ? 'nav-menu active' : 'nav-menu'}>
             <li><a href='/'>Home</a></li>
